@@ -21,7 +21,10 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'elasticsearch-model', github: 'elastic/elasticsearch-rails', branch: '5.x'
+gem 'elasticsearch-rails', github: 'elastic/elasticsearch-rails', branch: '5.x'
+gem 'pry', '~> 0.13.1'
+gem 'pry-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
